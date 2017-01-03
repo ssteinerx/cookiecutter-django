@@ -26,9 +26,9 @@ Powered by Cookiecutter_, Cookiecutter Django is a framework for jumpstarting pr
 Features
 ---------
 
-* For Django 1.9
+* For Django 1.10
 * Renders Django projects with 100% starting test coverage
-* Twitter Bootstrap_ v4.0.0 - `alpha 3`_
+* Twitter Bootstrap_ v4.0.0 - `alpha 4`_ (`maintained Foundation fork`_ also available)
 * 12-Factor_ based settings via django-environ_
 * Optimized development and production settings
 * Registration via django-allauth_
@@ -44,6 +44,8 @@ Features
 * Customizable PostgreSQL version
 * Experimental support for Amazon Elastic Beanstalk
 
+.. _`maintained Foundation fork`: https://github.com/Parbhat/cookiecutter-django-foundation
+
 
 Optional Integrations
 ---------------------
@@ -56,7 +58,7 @@ Optional Integrations
 * Integration with Sentry_ for error logging
 * Integration with Opbeat_ for performance monitoring
 
-.. _`alpha 3`: http://blog.getbootstrap.com/2016/07/27/bootstrap-4-alpha-3/
+.. _`alpha 4`: http://blog.getbootstrap.com/2016/09/05/bootstrap-4-alpha-4/
 .. _Bootstrap: https://github.com/twbs/bootstrap
 .. _django-environ: https://github.com/joke2k/django-environ
 .. _12-Factor: http://12factor.net/
@@ -68,7 +70,7 @@ Optional Integrations
 .. _Celery: http://www.celeryproject.org/
 .. _Anymail: https://github.com/anymail/django-anymail
 .. _MailHog: https://github.com/mailhog/MailHog
-.. _Sentry: https://getsentry.com/welcome/
+.. _Sentry: https://sentry.io/welcome/
 .. _docker-compose: https://github.com/docker/compose
 .. _Opbeat: https://opbeat.com/
 .. _PythonAnywhere: https://www.pythonanywhere.com/
@@ -90,7 +92,7 @@ and then editing the results to include your name, email, and various configurat
 
 First, get Cookiecutter. Trust me, it's awesome::
 
-    $ pip install cookiecutter
+    $ pip install "cookiecutter>=1.4.0"
 
 Now run it against this repo::
 
