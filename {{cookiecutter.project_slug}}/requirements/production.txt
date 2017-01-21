@@ -11,7 +11,7 @@ psycopg2==2.6.2
 
 # WSGI Handler
 # ------------------------------------------------
-gevent==1.2.0
+gevent==1.2.1
 gunicorn==19.6.0
 
 # Static and Media Storage
@@ -19,7 +19,7 @@ gunicorn==19.6.0
 boto==2.45.0
 django-storages-redux==1.3.2
 {% if cookiecutter.use_whitenoise != 'y' -%}
-Collectfast==0.5.0
+Collectfast==0.5.1
 {%- endif %}
 
 # Email backends for Mailgun, Postmark, SendGrid and more
